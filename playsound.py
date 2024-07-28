@@ -2,13 +2,13 @@ from gtts import gTTS
 import playsound
 
 # Tamil text
-tamil_text = "தமிழில் உரையாடல்"
+langtext = "என் பெயர் பார்த்தன்"
 
 # Convert text to speech
-tts = gTTS(text=tamil_text, lang='ta')
+tts = gTTS(text=langtext, lang='ta')
 
 # Save the audio file
-tts.save("tamil_audio.mp3")
+tts.save("audio.mp3")
 
 # Play the audio file
-# playsound.playsound("tamil_audio.mp3")
+# playsound.playsound("audio.mp3")
