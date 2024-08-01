@@ -1,0 +1,4 @@
+flask
+speech_recognition
+gtts
+deep_translate

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BashaCOnnect</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    
+    
+    <div class="container">
+        <center>
+        <h1>BashaConnect</h1>
+        <p style>Breaking Barriers, Building Bridges</p>
+        </center>
+        <div class="container">
+            <h1>Voice Recorder</h1>
+            <button id="recordButton">Start Recording</button>
+            <ul id="recordingsList"></ul>
+        </div>
+        <h1>Speech Translation</h1>
+        <div id="abc" class="container">
+        <center>
+        <h2>English to Tamil</h2>
+        
+        <input type="file" id="audioFile" accept="audio/*">
+        <button onclick="startTranslation()">Translate</button>
+        <div id="transcribedText"></div>
+        <div id="translatedText"></div>
+        <audio id="translatedAudio" controls></audio>
+        </center>
+        </div>
+        <div id="abc"class="container">
+        <center>
+        <h2>Tamil to English</h2>
+        
+        <input type="file" id="audioFile2" accept="audio/*">
+        <button onclick="startTranslation2()">Translate</button>
+        <div id="transcribedText2"></div>
+        <div id="translatedText2"></div>
+        <audio id="translatedAudio2" controls></audio>
+        </center>
+        </div>
+    
+    
+        <!-- Blog Posts Section -->
+        <div class="blog-posts">
+            <div class="blog-post">
+                <h3>The Challenges Tamil Monolinguals Face Without an English Translator</h3>
+                <p>
+                    In today's globalized world, Tamil monolinguals often encounter significant challenges when they lack access to English translation. From navigating everyday tasks to accessing critical services, the language barrier can be a substantial hindrance.
+                </p>
+            </div>
+
+            <div class="blog-post">
+                <h3>Helping Non-Tamil Speakers Get By in Tamil-Speaking Regions</h3>
+                <p>
+                    For non-Tamil speakers, integrating into Tamil-speaking regions can be daunting. However, with the help of translators and language learning tools, many are finding ways to bridge the gap.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <script src="/static/scripts.js"></script>
+</body>
+</html>
